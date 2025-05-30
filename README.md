@@ -1,7 +1,5 @@
 # IndustrialShield - Machine Learning-Based Intrusion Detection System (IDS) for Manufacturing Environments
 
----------------------------------------------------------------------------------------------------------------
-
 # 🎯 Problem Statement:
 Manufacturing systems are increasingly targeted by cyberattacks due to their reliance on legacy industrial control 
 systems and limited real-time threat detection. The goal of this project is to build a machine learning-based IDS 
