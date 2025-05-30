@@ -10,11 +10,15 @@ Industrial networks using protocols like Modbus are highly vulnerable to cyberat
 ### 📂 Project Structure
 industrialshield-ml-ids/
 ├── data/ # Raw and processed datasets
+
 ├── notebooks/ # EDA, feature engineering, modeling
+
 ├── src/ # Python scripts for modeling and pipeline
-├── dashboard/ # Streamlit dashboard (optional)
+
 ├── reports/ # Summary reports
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # Project overview
 
 
