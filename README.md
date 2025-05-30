@@ -43,6 +43,8 @@ pip install -r requirements.txt
 # 3. Run the notebook
 jupyter notebook notebooks/03_model_training.ipynb
 
+---
+
 ## 🛠 Technologies
 Python (Pandas, Sklearn, XGBoost, Matplotlib, Seaborn)
 
