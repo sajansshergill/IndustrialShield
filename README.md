@@ -31,7 +31,7 @@ industrialshield-ml-ids/
 
 ---
 
-## 🚀 How to Run
+### 🚀 How to Run
 ```bash
 # 1. Clone the repository
 git clone https://github.com/yourusername/industrialshield-ml-ids.git
@@ -42,10 +42,10 @@ pip install -r requirements.txt
 
 # 3. Run the notebook
 jupyter notebook notebooks/03_model_training.ipynb
-
+```
 ---
 
-## 🛠 Technologies
+### 🛠 Technologies
 Python (Pandas, Sklearn, XGBoost, Matplotlib, Seaborn)
 
 Jupyter Notebook
@@ -54,3 +54,16 @@ Streamlit (optional)
 
 Dataset: Train_Test_IoT_Modbus(in).csv
 
+---
+
+### 📊 Model Comparison Summary
+| Model               | Accuracy | Tuned? | Notes                            |
+| ------------------- | -------- | ------ | -------------------------------- |
+| Logistic Regression | 0.87     | ✅      | Lightweight, baseline model      |
+| Random Forest       | 0.92     | ✅      | Best performer, interpretable    |
+| XGBoost             | ❌        | ❌      | Skipped due to dependency issues |
+
+---
+
+### 📌 Conclusion
+This project demonstrates the use of ML to secure industrial IoT systems via anomaly detection in Modbus traffic. We trained several models, with Random Forest emerging as the most balanced in terms of performance and interpretability. Future improvements include SHAP-based explainability, real-time dashboard alerts, and time-series-based intrusion detection.
