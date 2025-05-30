@@ -86,3 +86,10 @@ industrialshield-ml-ids/
 - Visualization: Seaborn, Plotly, Power BI (optional)
 - Deployment: Streamlit/Flask (for dashboard)
 - Data: NSL-KDD, CICIDS2017, TON_IoT datasets
+
+---------------------------------------------------------------------------------------------------------------
+
+🔚 Conclusion
+In this project, we developed a machine learning-based Intrusion Detection System (IDS) tailored for Modbus network traffic in industrial IoT environments. Through comprehensive data preprocessing, feature analysis, and the training of multiple classification models—including Logistic Regression, Random Forest, and XGBoost—we evaluated their performance in detecting cyber-attacks. After tuning hyperparameters, Random Forest emerged as the best-performing model, achieving strong accuracy while maintaining interpretability. While XGBoost showed potential, resource constraints limited its deployment in this version.
+
+This project not only reinforces the role of ML in strengthening cybersecurity for manufacturing setups but also highlights the importance of model explainability, evaluation, and ethical treatment of potential outliers. Future work can include model deployment, time-series attack detection, and explainable AI techniques like SHAP to further enhance trust and usability.
